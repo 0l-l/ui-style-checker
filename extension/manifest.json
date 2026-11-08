@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/anthropics/mcpb/main/schemas/mcpb-manifest-v0.4.schema.json",
+  "manifest_version": "0.4",
+  "name": "ui-style-reference",
+  "display_name": "UI Style Reference",
+  "version": "0.1.0",
+  "description": "Read-only library of Olivia's real past UI style (colors, fonts, spacing) from her projects' HTML/CSS.",
+  "author": { "name": "Olivia" },
+  "server": {
+    "type": "python",
+    "entry_point": "server/server.py",
+    "mcp_config": {
+      "command": "C:/Users/olivi/Documents/GitHub/ui-style-toolkit/.venv/Scripts/python.exe",
+      "args": ["${__dirname}/server/server.py"]
+    }
+  },
+  "tools": [
+    {
+      "name": "get_style_reference",
+      "description": "Return the real colors, fonts and layout values used in past tool or game projects."
+    }
+  ],
+  "compatibility": {
+    "platforms": ["win32"]
+  }
+}

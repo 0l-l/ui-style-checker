@@ -1,0 +1,7 @@
+{
+  "tarot":          { "path": "C:/Users/olivi/Documents/GitHub/tarot",          "kind": "tool" },
+  "fab-finder":     { "path": "C:/Users/olivi/Documents/GitHub/fab-finder",     "kind": "tool" },
+  "0l-l.github.io": { "path": "C:/Users/olivi/Documents/GitHub/0l-l.github.io", "kind": "site" },
+  "codycatcafe":    { "path": "C:/Users/olivi/Documents/GitHub/codycatcafe",    "kind": "game" },
+  "bughouse-chess": { "path": "C:/Users/olivi/Documents/GitHub/bughouse-chess", "kind": "game" }
+}

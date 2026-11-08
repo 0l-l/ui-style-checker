@@ -1,0 +1,8 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Local secrets
+.env*
+# Windows
+Thumbs.db
